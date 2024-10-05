@@ -1,3 +1,43 @@
-body {
-  background-color: rgb(205, 218, 243);
+/*common code*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/*navbar starts here*/
+.navbar {
+  background-color: #080808;
+  color: rgb(253, 254, 254);
+  font-size: 20px;
+  padding: 1%;
+  overflow: hidden;
+  position: sticky;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  justify-content: center;
+}
+.left img {
+  margin-right: 10px;
+  border: rgb(246, 247, 249) solid 2px;
+  border-radius: 50%;
+}
+.right {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar a {
+  color: white;
+  padding: 3px 8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.navbar a:hover {
+  color: #000;
+  background-color: aqua;
 }
