@@ -1,43 +1,51 @@
-/*common code*/
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
   box-sizing: border-box;
-  text-decoration: none;
 }
-/*navbar starts here*/
-.navbar {
-  background-color: #080808;
-  color: rgb(253, 254, 254);
-  font-size: 20px;
-  padding: 1%;
-  overflow: hidden;
-  position: sticky;
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 70px;
   display: flex;
-  text-align: center;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0, 0, 0, 0.5);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 99;
 }
-.left {
-  display: flex;
-  justify-content: center;
-}
-.left img {
-  margin-right: 10px;
-  border: rgb(246, 247, 249) solid 2px;
+header img {
+  margin-left: 2rem;
   border-radius: 50%;
+  border: solid 2px #000;
 }
-.right {
+header ul {
   display: flex;
-  justify-content: space-around;
+  list-style-type: none;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 3rem;
 }
-.navbar a {
-  color: white;
-  padding: 3px 8px;
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+header ul li {
+  padding: 0.5rem;
+  transition: background 0.1s ease;
   border-radius: 10px;
-  transition: all 0.3s;
+  cursor: pointer;
 }
-.navbar a:hover {
-  color: #000;
-  background-color: aqua;
+header ul li:hover {
+  background: rgb(245, 245, 245, 0.5);
+}
+
+header .meno-bar {
+  display: none;
 }

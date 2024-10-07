@@ -1,24 +1,46 @@
 /*for mobile devices*/
 @media only screen and (max-width: 768px) {
-  html {
-    font-size: 18px;
-  }
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
-  .navbar {
+  header ul {
+    position: absolute;
     flex-direction: column;
-    justify-content: space-between;
+    background: rgb(0, 0, 0, 0.5);
+    top: 70px;
+    right: 0;
     align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    height: calc(100vh);
+    margin-right: 0;
+    width: 40%;
   }
-  .right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
+  .meno-dispay {
+    display: none;
+  }
+  header .meno-bar {
+    display: block;
+    margin-right: 1rem;
+    font-size: 25px;
+  }
+  .meno {
+    display: none;
+  }
+  .meno-style {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .meno-style:hover {
+    transform: scale(1.2);
+  }
+  .cross {
+    display: none;
+  }
+  .cross-style {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .cross-style:hover {
+    rotate: 90deg;
   }
 }
