@@ -4,10 +4,11 @@
   [class*="col-"] {
     width: 100%;
   }
+  /* nav bar start here*/
   header ul {
     position: absolute;
     flex-direction: column;
-    background: rgb(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0, 0.8);
     top: 70px;
     right: 0;
     align-items: center;
@@ -43,4 +44,25 @@
   .cross-style:hover {
     rotate: 90deg;
   }
+  /*navbar end here*/
+  /*home section start here*/
+  .Home-section {
+    flex-direction: column;
+    height: 60vh;
+  }
+  .picture {
+    height: 50%;
+  }
+  .picture img {
+    height: 250px;
+    width: 200px;
+    margin-top: 5rem;
+  }
+  .intro {
+    margin: 0rem 0rem 5rem 0rem;
+    width: 100%;
+    font-size: 0.8rem;
+    border-left: 3px solid #fff;
+  }
+  /*home section end here*/
 }
