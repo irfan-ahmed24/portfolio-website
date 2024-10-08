@@ -67,7 +67,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #27444b;
 }
 .picture {
   position: relative;
@@ -93,6 +92,9 @@ h2,
 h3 {
   margin-left: 8px;
   font-style: italic;
+}
+.intro div {
+  border-left: 3px groove #ccc;
 }
 /*Home section end here*/
 /*main end here*/

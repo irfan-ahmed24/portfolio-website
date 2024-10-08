@@ -46,23 +46,27 @@
   }
   /*navbar end here*/
   /*home section start here*/
+  main {
+    padding-top: 80px;
+  }
   .Home-section {
     flex-direction: column;
+    justify-content: center;
     height: 60vh;
   }
   .picture {
-    height: 50%;
+    height: 50vh;
+    padding-top: 200px;
   }
   .picture img {
     height: 250px;
     width: 200px;
-    margin-top: 5rem;
   }
   .intro {
-    margin: 0rem 0rem 5rem 0rem;
+    height: 40vh;
     width: 100%;
     font-size: 0.8rem;
-    border-left: 3px solid #fff;
   }
+
   /*home section end here*/
 }
